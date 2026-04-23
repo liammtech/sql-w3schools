@@ -19,3 +19,14 @@ GO
 -- Example
 
 SELECT * FROM Customers ORDER BY CustomerID;
+
+
+-- =====
+-- UPDATE Warning!
+-- =====
+
+-- Be careful when you omit the WHERE clause, ALL records will be updated!
+
+-- UPDATE Customers
+-- SET ContactName = 'Bjorn'
+
