@@ -23,4 +23,3 @@ GO
 -- Aggregate functions ignore null values (except for COUNT(*)).
 
 -- We will go through the aggregate functions above in the next chapters.
-
