@@ -50,4 +50,3 @@ GO
 -- Example:
 
 -- DROP TABLE Customers;
-
