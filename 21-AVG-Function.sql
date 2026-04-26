@@ -46,6 +46,6 @@ WHERE UnitPrice > (SELECT AVG(UnitPrice) FROM Products);
 
 -- Here we use the AVG() function and the GROUP BY clause, to return the average price for each category in the "Products" table:
 
-SELECT AVG(Price) AS AveragePrice, CategoryID
+SELECT AVG(UnitPrice) AS AveragePrice, CategoryID
 FROM Products
 GROUP BY CategoryID;
