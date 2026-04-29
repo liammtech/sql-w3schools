@@ -41,6 +41,5 @@ CASE
 END AS PriceCategory
 FROM Products;
 
-
 -- Note: this is an ephemeral column, it's not added to "Products"
 SELECT * FROM Products;
