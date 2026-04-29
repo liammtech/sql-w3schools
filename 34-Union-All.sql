@@ -47,7 +47,3 @@ SELECT City, Country FROM Suppliers
 WHERE Country='Germany'
 ORDER BY City;
 
-
-
-
-
